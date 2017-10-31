@@ -1,18 +1,36 @@
+/*css utilizzato per la visualizzazione su mobile*/
+/*in questo documento basta sovrascivere le modifiche da applicare al documento stile.css, in quanto la pagina se visualizzata su mobile carica prima il file stile.css(con laversione per schermo grande), e questo documento semplicemente sovrascrive le modifiche da fare per la parte mobile*/
+
 #logo {
 	display: none;
 }
 
-#menu{
-	float: none;
-	margin: 0;
-	width: 100%;
+#menu {
+	float: none; /*resetta l'attributo float in modo che segua il normale comportamento*/
+	font-size: 1.1em; /*ingrandisco un po il testo in modo che sia piu leggibile da schermi piccoli*/
 	padding: 1em;
+	width: 100%;
 	text-align: center;
+	padding-left: 0em;
 }
 
-#body{
-	width:100%
+#body {
+	width:95%;
+	padding: 1em;
+	border: 0;
+	margin: 0;
 }
 
-#header h1
+#header {
+	min-height: 0em;
+}
 
+#header h1 {
+	font-size: 2.9em;
+	margin-left: 0;
+}
+
+#header h2 {
+	font-size: 1.3em;
+	margin-left: 0;
+}

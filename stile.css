@@ -1,4 +1,4 @@
-/* reset delle impostazioni del browser*/
+ /* reset delle impostazioni del browser*/
 
 * { /*seleziono tutti i componenti della mia pagina html, priorita molto bassa*/
 	padding :0em;
@@ -52,7 +52,7 @@ body {
 
 #breadcrumb{
 	background-color: #BD091B;
-	color: #FFF;
+	color: white;
 	font-size: 1em;
 	padding: 0.8em;
 	font-weight: bold;
@@ -67,12 +67,12 @@ body {
 	float: left;
 	width: 20%;
 	padding:0.5em;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 li {
 	padding-top: 0.5em;
-	list-style-type: none;
+	list-style-type: none; /*per rimuovere i puntini alla sinistra degli elementi della lista*/
 	padding-bottom: 0.5em;
 }
 
@@ -94,14 +94,14 @@ a:hover {
  */
 
 #body {
-	margin-left: 20%;
+	margin-left: 22%; /*per lasciare lo spazio a sinistra per il menu*/
 	border-left: 1px solid #DDD;
-	width: 70%;
-	padding: 2.0em 1.0em 3em 3.5em;
+	width: 70%; /*100% - 20% di menu - 10% di bordo intorno*/ 
+	padding: 1em;
 }
 
 #body img {
-	width: 70%;
+	width: 75%;
 	display: block;
 	margin: auto;
 	padding: 1em;
@@ -109,6 +109,7 @@ a:hover {
 
 #body h1{
 	text-align: center;
+	font-weight: bold;
 }
 
 /* ==============
@@ -119,6 +120,9 @@ a:hover {
 #footer {
 	border-top: 1px solid #DDD;
 	text-align:center;
+	padding: 0.5em;
+	font-size: 0.7em;
+	min-height: 3.5em;
 }
 
 #htmlvalido {
@@ -130,4 +134,19 @@ a:hover {
 	float: right;
 	padding: 0.5em;
 }
+
+/* =======
+ * TABELLA
+ * =======
+ */
+ 
+ th, #tablefooter{
+	background-color: #BD091B;
+	color: white;
+	
+ }
+ 
+ td {
+	border: 1px solid #DDD;
+ }
 
