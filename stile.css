@@ -1,0 +1,133 @@
+/* reset delle impostazioni del browser*/
+
+* { /*seleziono tutti i componenti della mia pagina html, priorita molto bassa*/
+	padding :0em;
+	margin :0em;	
+}
+
+html, body{ 
+	max-width: 1024px;/*dimensione massima della pagina*/
+	margin:auto; /*gestisce il posizionamento collocando la pagina al centro*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;/*font grande quanto le preferenze impostate dall'utente*/
+}
+
+body {
+	border: 1px solid #DDD; /*linea sottile tutto intorno alla pagina*/
+}
+
+/* ==============
+ * SEZIONE HEADER
+ * ==============
+ */ 
+
+#header {
+	text-align: center;
+	min-height: 10.5em;/*scelto cosi in modo che il div dell'header abbia la stessa altezza dell'immagine*/
+	padding: 1em;
+}
+
+#logo {
+	float: left;
+	width: 10em;
+	margin: 0.5em;
+}
+
+#header h1 {
+	padding-top: 0.5em;
+	color: #BD091B;
+	font-size: 3.5em;
+}
+
+#header h2{
+	font-size: 1.3em;
+	font-style: italic;
+	font-weight: normal;
+}
+
+/* ==================
+ * SEZIONE BREADCRUMB
+ * ==================
+ */ 
+
+#breadcrumb{
+	background-color: #BD091B;
+	color: #FFF;
+	font-size: 1em;
+	padding: 0.8em;
+	font-weight: bold;
+}
+
+/* ============
+ * SEZIONE MENU
+ * ============
+ */ 
+
+#menu {
+	float: left;
+	width: 20%;
+	padding:0.5em;
+	font-size: 1.5em;
+}
+
+li {
+	padding-top: 0.5em;
+	list-style-type: none;
+	padding-bottom: 0.5em;
+}
+
+a:link {
+	color: #BD091B;
+}
+
+a:visited {
+	color: #CD091B;
+}
+
+a:hover {
+	background-color: #EEE;
+}
+
+/* ============
+ * SEZIONE BODY
+ * ============
+ */
+
+#body {
+	margin-left: 20%;
+	border-left: 1px solid #DDD;
+	width: 70%;
+	padding: 2.0em 1.0em 3em 3.5em;
+}
+
+#body img {
+	width: 70%;
+	display: block;
+	margin: auto;
+	padding: 1em;
+}
+
+#body h1{
+	text-align: center;
+}
+
+/* ==============
+ * SEZIONE FOOTER
+ * ==============
+ */
+
+#footer {
+	border-top: 1px solid #DDD;
+	text-align:center;
+}
+
+#htmlvalido {
+	float: left;
+	padding: 0.5em;
+}
+
+#cssvalido {
+	float: right;
+	padding: 0.5em;
+}
+
